@@ -16,6 +16,16 @@ Welcome to the **Machine Learning Algorithms** repository! This repository conta
 
 ---
 
+## Folder Structure
+
+```
+machine-learning-algorithms/
+├── supervised_algorithms/
+│   ├── regression/
+│   │   ├── linear_regression/
+│   │   │   ├── linear_regression.ipynb
+```
+
 ## Supervised Algorithms
 Supervised learning involves training models on labeled datasets where inputs are paired with known outputs.
 
