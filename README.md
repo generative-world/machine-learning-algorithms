@@ -78,3 +78,11 @@ Unsupervised learning algorithms uncover patterns and structures in unlabeled da
    ```bash
    git clone https://github.com/your-username/machine-learning-algorithms.git
    cd machine-learning-algorithms
+
+## Dependencies
+pip install -r requirements.txt
+
+## Contributions
+- Add new algorithms or improve existing implementations.
+- Submit bug fixes or suggest enhancements.
+- Fork the repository and open a pull request.
