@@ -1,17 +1,55 @@
-# Machine Learning Journey 🚀
+# Machine Learning Algorithms 📚
 
-Welcome to my Machine Learning repository! This repository is designed to document my learning path in machine learning by breaking down concepts into individual topics, creating small projects for each, and organizing them step by step.
+Welcome to the **Machine Learning Algorithms** repository! This repository is a collection of implementations and examples of both supervised and unsupervised machine learning algorithms. Each algorithm is organized into its respective category, with clear explanations, datasets, and Python code.
 
 ---
 
-## Prerequisites
-Before starting, ensure you have:
-- Python (>= 3.8)
-- Git for version control
-- A GitHub account to manage your projects
-- A code editor (e.g., VS Code, Jupyter Notebook)
-- Basic knowledge of Python and statistics
+## Table of Contents
+- [Supervised Algorithms](#supervised-algorithms)
+- [Unsupervised Algorithms](#unsupervised-algorithms)
+- [How to Use](#how-to-use)
+- [Dependencies](#dependencies)
+- [Contributions](#contributions)
+- [License](#license)
 
-Install required Python libraries:
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter notebook
+---
+
+## Supervised Algorithms
+**Supervised learning** involves training a model on labeled data, where each input is paired with the correct output. Below are the algorithms included in this category:
+
+### Algorithms
+- **[Linear Regression](./supervised_algorithms/linear_regression)**  
+  Predict a continuous variable based on input features.
+  
+- **[Logistic Regression](./supervised_algorithms/logistic_regression)**  
+  Predict categorical outcomes, such as binary classification.
+
+- **[Decision Trees](./supervised_algorithms/decision_tree)**  
+  Use tree-like structures for decision-making and prediction.
+
+- **More to Come...**
+
+---
+
+## Unsupervised Algorithms
+**Unsupervised learning** deals with data without labeled outputs, where the goal is to uncover hidden patterns or structures. Below are the algorithms included in this category:
+
+### Algorithms
+- **[K-Means Clustering](./unsupervised_algorithms/k_means_clustering)**  
+  Group similar data points into clusters.
+
+- **[Principal Component Analysis (PCA)](./unsupervised_algorithms/pca)**  
+  Reduce the dimensionality of data while retaining most of the variance.
+
+- **[Hierarchical Clustering](./unsupervised_algorithms/hierarchical_clustering)**  
+  Create nested clusters using hierarchical methods.
+
+- **More to Come...**
+
+---
+
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/machine-learning-algorithms.git
+   cd machine-learning-algorithms
