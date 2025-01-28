@@ -16,16 +16,6 @@ Welcome to the **Machine Learning Algorithms** repository! This repository conta
 
 ---
 
-## Folder Structure
-
-```
-machine-learning-algorithms/
-├── supervised_algorithms/
-│   ├── regression/
-│   │   ├── linear_regression/
-│   │   │   ├── linear_regression.ipynb
-```
-
 ## Supervised Algorithms
 Supervised learning involves training models on labeled datasets where inputs are paired with known outputs.
 
@@ -80,6 +70,70 @@ Unsupervised learning algorithms uncover patterns and structures in unlabeled da
   Create nested clusters using hierarchical methods.
 
 - **More to Come...**
+
+---
+
+## Folder Structure
+
+```
+machine-learning-algorithms/
+├── supervised_algorithms/                # Supervised learning category
+│   ├── regression/                       # Regression algorithms
+│   │   ├── linear_regression/            # Linear Regression implementation
+│   │   │   ├── linear_regression.ipynb   # Colab notebook for Linear Regression
+│   │   │   ├── dataset.csv               # Example dataset
+│   │   │   └── README.md                 # Documentation for Linear Regression
+│   │   ├── polynomial_regression/        # Polynomial Regression implementation
+│   │   │   ├── polynomial_regression.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   ├── svr/                          # Support Vector Regression implementation
+│   │   │   ├── svr.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   └── ...                           # Add more regression algorithms
+│   ├── classification/                   # Classification algorithms
+│   │   ├── logistic_regression/          # Logistic Regression implementation
+│   │   │   ├── logistic_regression.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   ├── decision_tree/                # Decision Tree implementation
+│   │   │   ├── decision_tree.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   ├── random_forest/                # Random Forest implementation
+│   │   │   ├── random_forest.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   ├── svm/                          # Support Vector Machine implementation
+│   │   │   ├── svm.ipynb
+│   │   │   ├── dataset.csv
+│   │   │   └── README.md
+│   │   └── ...                           # Add more classification algorithms
+├── unsupervised_algorithms/              # Unsupervised learning category
+│   ├── k_means_clustering/               # K-Means Clustering implementation
+│   │   ├── k_means.ipynb
+│   │   ├── dataset.csv
+│   │   └── README.md
+│   ├── pca/                              # Principal Component Analysis implementation
+│   │   ├── pca.ipynb
+│   │   ├── dataset.csv
+│   │   └── README.md
+│   ├── hierarchical_clustering/          # Hierarchical Clustering implementation
+│   │   ├── hierarchical_clustering.ipynb
+│   │   ├── dataset.csv
+│   │   └── README.md
+│   └── ...                               # Add more unsupervised algorithms
+├── shared_utils/                         # Shared utilities and helper functions
+│   ├── data_loader.py                    # Common dataset loading functions
+│   ├── data_visualizer.py                # Visualization utilities
+│   ├── metrics_calculator.py             # Performance metrics calculation
+│   └── README.md                         # Documentation for shared utilities
+├── requirements.txt                      # List of Python dependencies
+├── LICENSE                               # License for the repository
+└── README.md                             # Main documentation for the repository
+
+```
 
 ---
 
