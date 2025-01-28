@@ -1,11 +1,13 @@
 # Machine Learning Algorithms 📚
 
-Welcome to the **Machine Learning Algorithms** repository! This repository is a collection of implementations and examples of both supervised and unsupervised machine learning algorithms. Each algorithm is organized into its respective category, with clear explanations, datasets, and Python code.
+Welcome to the **Machine Learning Algorithms** repository! This repository contains implementations and examples of both supervised and unsupervised machine learning algorithms. Each algorithm is categorized for easy navigation, with code, datasets, and explanations provided.
 
 ---
 
 ## Table of Contents
 - [Supervised Algorithms](#supervised-algorithms)
+  - [Regression Algorithms](#regression-algorithms)
+  - [Classification Algorithms](#classification-algorithms)
 - [Unsupervised Algorithms](#unsupervised-algorithms)
 - [How to Use](#how-to-use)
 - [Dependencies](#dependencies)
@@ -15,24 +17,47 @@ Welcome to the **Machine Learning Algorithms** repository! This repository is a 
 ---
 
 ## Supervised Algorithms
-**Supervised learning** involves training a model on labeled data, where each input is paired with the correct output. Below are the algorithms included in this category:
+Supervised learning involves training models on labeled datasets where inputs are paired with known outputs.
 
-### Algorithms
-- **[Linear Regression](./supervised_algorithms/linear_regression)**  
+### Regression Algorithms
+Regression algorithms are used for predicting continuous numerical values. Examples include predicting house prices, stock values, and temperatures.
+
+#### Algorithms
+- **[Linear Regression](./supervised_algorithms/regression/linear_regression)**  
   Predict a continuous variable based on input features.
-  
-- **[Logistic Regression](./supervised_algorithms/logistic_regression)**  
-  Predict categorical outcomes, such as binary classification.
 
-- **[Decision Trees](./supervised_algorithms/decision_tree)**  
-  Use tree-like structures for decision-making and prediction.
+- **[Polynomial Regression](./supervised_algorithms/regression/polynomial_regression)**  
+  Extend linear regression by fitting a polynomial equation to the data.
+
+- **[Support Vector Regression (SVR)](./supervised_algorithms/regression/svr)**  
+  Use Support Vector Machines for regression tasks.
+
+- **More to Come...**
+
+---
+
+### Classification Algorithms
+Classification algorithms predict categorical outcomes, such as spam detection or disease diagnosis.
+
+#### Algorithms
+- **[Logistic Regression](./supervised_algorithms/classification/logistic_regression)**  
+  Predict binary or multi-class outputs.
+
+- **[Decision Trees](./supervised_algorithms/classification/decision_tree)**  
+  Use a tree-like structure to classify data points.
+
+- **[Random Forest](./supervised_algorithms/classification/random_forest)**  
+  Combine multiple decision trees to improve accuracy.
+
+- **[Support Vector Machines (SVM)](./supervised_algorithms/classification/svm)**  
+  Classify data points using hyperplanes in high-dimensional space.
 
 - **More to Come...**
 
 ---
 
 ## Unsupervised Algorithms
-**Unsupervised learning** deals with data without labeled outputs, where the goal is to uncover hidden patterns or structures. Below are the algorithms included in this category:
+Unsupervised learning algorithms uncover patterns and structures in unlabeled data.
 
 ### Algorithms
 - **[K-Means Clustering](./unsupervised_algorithms/k_means_clustering)**  
